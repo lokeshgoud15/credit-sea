@@ -6,8 +6,8 @@
   "scripts": {
     "test": "mocha --exit --recursive tests --reporter spec",
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "tsc"
+    "dev": "nodemon server.js"
+   
   },
   "keywords": [],
   "author": "",
