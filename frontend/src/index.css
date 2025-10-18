@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #f8fafc; 
+  font-family: "Inter", sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}

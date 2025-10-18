@@ -1,0 +1,51 @@
+# Node
+node_modules/
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# Backend node modules
+backend/node_modules/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Mac artifacts
+*.swp
+
+# Coverage and test outputs
+coverage/
+
+# Vite cache
+.env.local
+
+# Misc
+*.local
+
+# OneDrive temp files
+~$*
+
+# Ignore sample uploads and other large files (if present)
+uploads/
+
+# Lockfiles if you don't want them
+# package-lock.json
+# yarn.lock
